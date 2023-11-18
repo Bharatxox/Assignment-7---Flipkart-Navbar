@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    height: 220px;
+    width: 100%;
+}
+.nav1{
+    display: flex;
+    background: #287FF0;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight:500;
+
+}
+.nav1 .logo{
+    margin-right: 5px;
+}
+.search-bar{
+    align-content: center;
+    position: relative;
+    box-shadow: 0 0 5px #1f62ba;
+}
+.search-bar input{
+    height: 45px;
+    width: 600px;
+    border-style: none;
+    padding-left: 15px;
+    border-radius: 2px;
+    
+}
+input:focus{
+    outline: none;
+}
+.search-bar button{
+    background: white;
+    border-style: none;
+    position: absolute;
+    height: 45px;
+    width: 30px;
+    margin: 0 10px;
+    right:0;
+    top:0;
+    color: #287FF0;
+    cursor: pointer;
+}
+.options{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding: 0 10px;
+    color: white;
+}
+.options .login button{
+    padding: 9px 38px;
+    border-style: none;
+    box-shadow: 0 0 5px #1f62ba;
+    font-size: 16px;
+    background-color: white;
+    color: #287FF0;
+    font-weight: 600;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.options .more,.cart{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+}
+.options a{
+    text-decoration: none;
+    color: white;
+}
+.nav2{
+    display: flex;
+    height: 150px;
+    align-items: center;
+    gap: 35px;
+    padding: 0px 98px;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+
+}
+.block img{
+    height: 80px;
+    width: 80px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
